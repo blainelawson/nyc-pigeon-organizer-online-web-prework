@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
         # binding.pry
       end
       binding.pry
-        pigeon_list[name][attribute] = 
+        pigeon_list[name][attribute] = sub_attribute_array
     end
   end
   binding.pry
