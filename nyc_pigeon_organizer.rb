@@ -29,9 +29,10 @@ def nyc_pigeon_organizer(data)
             sub_attribute_array << key.to_s
           end
         end
-        binding.pry
-        pigeon_list[name] = {attribute => sub_attribute_array}
+        # binding.pry
       end
+      binding.pry
+        pigeon_list[name] = attribute
     end
   end
   binding.pry
