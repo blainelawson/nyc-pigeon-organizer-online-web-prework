@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
         end
         # binding.pry
       end
-      # binding.pry
+      binding.pry
         pigeon_list[name][attribute]
         sub_attribute_array
     end
